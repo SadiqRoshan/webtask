@@ -1,300 +1,299 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
 
-}
-body{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+    }
+    body{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
-.men{
-    width: 100%;
-    padding: auto;
-    display: flex;
-}
-.mencantaner1{
-    width: 100%;
-    height: 100vh;
-    /* background-color: black; */
-    
+    .men{
+        width: 100%;
+        padding: 1px;
+        display: flex;
+        /* border: 2px solid rebeccapurple; */
+    }
+    .mencantaner1{
+        width: 100%;
+        height: 100vh;
+        
+        
 
 
-}
-/* .mendiv1{
-    width: 100%;
-    height: 80vh;
-    background-color: burlywood;
+    }
+    /* .mendiv1{
+        width: 100%;
+        height: 80vh;
+        background-color: burlywood;
 
-    
-} */
+        
+    } */
 
-.circule1{
-    width: 150px;
-    height: 150px;
-    background-color: orange;
-    margin-left: 260px;
-    margin-top: 150px;
-    border-radius: 50%;
-    overflow: hidden;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    .circule1{
+        width: 150px;
+        height: 150px;
+        background-color: orange;
+        margin-left: 260px;
+        margin-top: 150px;
+        border-radius: 50%;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
 
-}
+    }
 
-.circule2{
-    width: 70px;
-    height: 70px;
-    background-color: rgb(236, 185, 75);
-    border-radius: 50%;
-    margin-left: 90px;
-}
-.circule3{
-    width: 40px;
-    height: 40px;
-    background-color: rgb(236, 185, 75);
-    border-radius: 50%;
-    margin-left: 60px;
-    margin-top: 39px;
-}
+    .circule2{
+        width: 70px;
+        height: 70px;
+        background-color: rgb(236, 185, 75);
+        border-radius: 50%;
+        margin-left: 90px;
+    }
+    .circule3{
+        width: 40px;
+        height: 40px;
+        background-color: rgb(236, 185, 75);
+        border-radius: 50%;
+        margin-left: 60px;
+        margin-top: 39px;
+    }
 
-.circuletext{
-    width: 100px;
-    height: 50px;
-    /* background-color: rgb(224, 15, 15); */
-    display: flex;
-    margin-left: 25px;
-    margin-top: -34PX;
-    color: white;
-    
-}
-.circuletext p{
+    .circuletext{
+        width: 100px;
+        height: 50px;
+        /* background-color: rgb(224, 15, 15); */
+        display: flex;
+        margin-left: 25px;
+        margin-top: -34PX;
+        color: white;
+        
+    }
+    .circuletext p{
         font-size: x-large;
     }
     #circuletextp{
         font-size: 12px;
     }
 
-.bg{
-    width: 350px;
-    height: 200px;
-    background: transparent;
-    margin-top: 170px;
-    margin-left: 25px;
-}
-
-.bg img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-
-
-.deliveryboy{
-    width: 300px;
-    height: 400px;
-    background-color: transparent;
-    margin-top: -400px;
-    margin-left: 50px;
-    
-    
-
-}
-.deliveryboy img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-
-
-                    /* .mencantaner2 */
-
-
-
-
-
-
-
-
-.mencantaner2{
-    width: 100%;
-    height: 100vh;
-    background-color: transparent;
-    padding-top: 135px;
-}
-
-.mendiv{
-    width: 80%;
-    height: 80vh;
-    background: transparent;
-}
-
-.text1{
-    width: 100%;
-    padding: 1px;
-    background-color: transparent;
-}
-
-
-.text1 #h3 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: orange;
-}
-.text1 p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-}
-
-
-                /* textbox */
-
-
-
-.text2{
-    width: 100%;
-    height: 80px;
-    background-color: transparent;
-    /* border: 2px solid transparent; */
-    display: flex;
-    margin-top: 5px;
-}
-
-.textbox{
-    width: 100%;
-    padding: 1px;
-    background-color: transparent;
-    display: flex;
-    
-}
-
-.icon{
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    background-color: transparent;
-    overflow: hidden;
-}
-
-.icon img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-
-}
-
-.heading{
-    width: 80%;
-    height: 10vh;
-    background-color: transparent;
-   margin-left:10PX;
-}
-
-.div1{
-    width: 100%;
-    height: 20px;
-    background-color: transparent;
-}
-.div1 h4{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.div2{
-    width: 100%;
-    padding: 1px;
-    background-color: t;
-}
-.div2 p{
-    font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.boderline{
-    margin-top: 5px;
-    border-bottom: 1px solid black;
-}
-
-                        /* media query */
-
-@media only screen and (max-width:600px){
-    .men{
-        flex-wrap: wrap;
-    }
-    .mencantaner1{
-        height: 75vh;
-        overflow: hidden;
-        
-        
-    }
-    .circule1{
-        margin-top: 30px;
-        width: 120px;
-        height:120px;
-        margin-left: 350px;
-    }
-    .circule2{
-        width: 50px;
-        height: 50px;
-    }
-    .circule3{
-        width: 30px;
-        height: 30px;
-        margin-top: 24px;
-        
-    }
-    .circuletext{
-        
-        width: 80px;
-        padding: 1px;
-        margin-top: -19px;
-        margin-left: 22px;
-        color: #000;
-        
-    }
-
-    .circuletext p{
-        font-size: large;
-        font-size: x-large;
-    }
-    #circuletextp{
-        font-size: 9px;
-        
-    }
     .bg{
-        width: 290px;
-        height: 150px;
-        margin-top: 135px;
-        margin-left: 90px;
+        width: 350px;
+        height: 200px;
+        background: transparent;
+        margin-top: 170px;
+        margin-left: 25px;
     }
+
+    .bg img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+
     .deliveryboy{
-        width: 200px;
-        height: 300px;
-        margin-top: -300px;
-        margin-left: 120px;
-    }
-    
-    .mencantaner2{
-       padding: 0;
-       overflow: hidden;
-       height: 75vh;
+        width: 300px;
+        height: 400px;
+        background-color: transparent;
+        margin-top: -400px;
+        margin-left: 50px;
         
+        
+
     }
-    .div{
-        border-bottom: 2px solid black;
-        margin-top: 5px;
+    .deliveryboy img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+
+                        /* .mencantaner2 */
+
+
+
+
+
+
+
+
+    .mencantaner2{
+        width: 100%;
+        height: 100vh;
+        background-color: transparent;
+        padding-top: 135px;
     }
 
     .mendiv{
-        height: 72vh;
-        
+        width: 80%;
+        height: 80vh;
+        background: transparent;
+    }
+
+    .text1{
+        width: 100%;
+        padding: 1px;
+        background-color: transparent;
+    }
+
+
+    .text1 #h3 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: orange;
+    }
+    .text1 p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+    }
+
+
+                    /* textbox */
+
+
+
+    .text2{
+        width: 100%;
+        height: 80px;
+        background-color: transparent;
+        border: 2px solid transparent;
+        display: flex;
         margin-top: 5px;
     }
-}
-                   
+
+    .textbox{
+        width: 100%;
+        padding: 1px;
+        background-color: transparent;
+        display: flex;
+        
+    }
+
+    .icon{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        background-color: transparent;
+        overflow: hidden;
+    }
+
+    .icon img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+    }
+
+    .heading{
+        width: 80%;
+        height: 10vh;
+        background-color: transparent;
+    margin-left:10PX;
+    }
+
+    .div1{
+        width: 100%;
+        height: 20px;
+        background-color: transparent;
+    }
+    .div1 h4{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .div2{
+        width: 100%;
+        padding: 1px;
+        background-color: t;
+    }
+    .div2 p{
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .boderline{
+        margin-top: 5px;
+        border-bottom: 1px solid black;
+    }
+
+
+                                        /* media query */
 
 
 
+    @media only screen and (max-width:600px){
+        .men{
+            flex-wrap: wrap;
+        }
+        .mencantaner1{
+            height: 75vh;
+            overflow: hidden;
+            
+            
+        }
+        .circule1{
+            margin-top: 30px;
+            width: 120px;
+            height:120px;
+            margin-left: 350px;
+        }
+        .circule2{
+            width: 50px;
+            height: 50px;
+        }
+        .circule3{
+            width: 30px;
+            height: 30px;
+            margin-top: 24px;
+            
+        }
+        .circuletext{
+            
+            width: 80px;
+            padding: 1px;
+            margin-top: -19px;
+            margin-left: 22px;
+            color: #000;
+            
+        }
+
+        .circuletext p{
+            font-size: large;
+        }
+        #circuletextp{
+            font-size: 9px;
+            
+        }
+        .bg{
+            width: 290px;
+            height: 150px;
+            margin-top: 135px;
+            margin-left: 90px;
+        }
+        .deliveryboy{
+            width: 200px;
+            height: 300px;
+            margin-top: -300px;
+            margin-left: 120px;
+        }
+        
+        .mencantaner2{
+           padding: 0;
+           overflow: hidden;
+           height: 75vh;
+            
+        }
+        .div{
+            border-bottom: 2px solid black;
+            margin-top: 5px;
+        }
+
+        .mendiv{
+            height: 72vh;
+            
+            margin-top: 5px;
+        }
+    }

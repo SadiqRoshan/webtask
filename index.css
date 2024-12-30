@@ -1,14 +1,14 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
 
-}
-body{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+    }
+    body{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
 .men{
     width: 100%;
@@ -19,48 +19,45 @@ body{
 .mencantaner1{
     width: 100%;
     height: 100vh;
+}
     
-    
+    /* .mendiv1{
+        width: 100%;
+        height: 80vh;
+        background-color: burlywood;
 
+        
+    } */
 
-}
-/* .mendiv1{
-    width: 100%;
-    height: 80vh;
-    background-color: burlywood;
+    .circule1{
+        width: 150px;
+        height: 150px;
+        background-color: orange;
+        margin-left: 260px;
+        margin-top: 150px;
+        border-radius: 50%;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
 
-    
-} */
+    }
 
-.circule1{
-    width: 150px;
-    height: 150px;
-    background-color: orange;
-    margin-left: 260px;
-    margin-top: 150px;
-    border-radius: 50%;
-    overflow: hidden;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
-}
-
-.circule2{
-    width: 70px;
-    height: 70px;
-    background-color: rgb(236, 185, 75);
-    border-radius: 50%;
-    margin-left: 90px;
-}
-.circule3{
-    width: 40px;
-    height: 40px;
-    background-color: rgb(236, 185, 75);
-    border-radius: 50%;
-    margin-left: 60px;
-    margin-top: 39px;
-}
+    .circule2{
+        width: 70px;
+        height: 70px;
+        background-color: rgb(236, 185, 75);
+        border-radius: 50%;
+        margin-left: 90px;
+    }
+    .circule3{
+        width: 40px;
+        height: 40px;
+        background-color: rgb(236, 185, 75);
+        border-radius: 50%;
+        margin-left: 60px;
+        margin-top: 39px;
+    }
 
 .circuletext{
     width: 100px;
@@ -220,7 +217,8 @@ margin-left:10PX;
 }
 
 
-                                    /* media query */
+
+                                        /* media query */
 
 
 
@@ -297,3 +295,4 @@ margin-left:10PX;
         margin-top: 5px;
     }
 }
+

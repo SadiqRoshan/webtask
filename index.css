@@ -71,6 +71,12 @@ body{
     color: white;
     
 }
+.circuletext p{
+        font-size: x-large;
+    }
+    #circuletextp{
+        font-size: 12px;
+    }
 
 .bg{
     width: 350px;
